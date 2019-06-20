@@ -9,17 +9,18 @@ const LandingPage = () => {
                 <video id="background-video" loop autoPlay muted>
                     <source src={landing_page_video} type="video/mp4" />
                 </video>
+                <div className="overlay centered">
+                    <h1 id="welcome-title">Welcome to FineFettling.com</h1>
+                </div>
             </div>
-            {/* <div class="navbar-landing">
+            <div class="navbar-landing">
                 <div class="left-title">
                     <h1>Fine Fettling</h1>
                 </div>
                 <div class="landing-buttons">
-                    <a href="/" className="tab home-tab">Home</a>
-                    <a href="/" className="tab garage-tab">Garage</a>
                     <a href="/" className="tab pricing-tab">Pricing</a>
                 </div>
-            </div> */}
+            </div>
             <CloudinaryContext cloudName={"dy6wiutks"}>
                 <div className="top-banner">
                     <div className="logo-container">
